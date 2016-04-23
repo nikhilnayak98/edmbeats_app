@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Join EDM Beats</title>
+	
+    <!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#0BAFA0">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#0BAFA0">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#0BAFA0-translucent">
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="./static/material/css/materialize.css" rel="stylesheet">
+	<link href="./static/material/css/jquery.datetimepicker.css " rel="stylesheet">
+	<link href="./static/material/css/forms.css " rel="stylesheet">
+	<link rel="icon" href="http://edmbeats.tk/assets/img/favicon.png" type="image/png" sizes="32x32">
+
+    <style type="text/css">
+      html, body {
+          background: #eee;
+          height: 100%;
+      }
+    </style>
+    
+<style type="text/css">
+    
+</style>
+
+  </head>
+  <body class="valign-wrapper2">
+      
+      <div class="container expand-on-small-only">
+          
+<div class="row valign">
+    <div class="col s12 m8 offset-m2 l8 offset-l2">
+        <div class="card">
+		<center><span style="font-family: 'Product Sans', Arial, sans-serif; font-size: 50px;">edmbeats</span></center>
+            <form enctype="multipart/form-data" action="http://formspree.io/edmbeats@edmbeats.tk" method="POST">
+                <div class="card-content">
+                    <span class="card-title grey-text text-darken-2">Join Us!</span>
+
+                    
+    
+<div class="row">
+    <div class="input-field col s12 required" id="id_name_container">
+        <i class="mdi-action-account-box prefix"></i><input id="id_name" name="name" type="text">
+        <label for="id_name">Name</label>
+        
+    </div>
+</div>
+
+
+    
+<div class="row">
+    <div class="input-field col s12 required" id="id_email_container">
+        <i class="mdi-communication-email prefix"></i><input id="id_email" name="email" type="email">
+        <label for="id_email">Email</label>
+        
+    </div>
+</div>
+
+
+    
+<div class="row">
+    <div class="input-field col s12 required" id="id_phone_container">
+        <i class="mdi-communication-call prefix"></i><input id="id_phone" name="phone" type="text">
+        <label for="id_phone">Phone</label>
+        
+    </div>
+</div>
+
+
+    
+<div class="layout-row row"><div class="col s12 m6">
+<div class="row">
+    <div class="select-field col s12 required" id="id_interest_container">
+        <label for="id_interest">Interest</label>
+        <select id="id_interest" name="interest">
+            <option value>Interested in</option>
+			<option value="Dj">DJ</option>
+		    <option value="Bran">Branding</option>
+            <option value="Vid">Visual Effects</option>
+            <option value="FDev">Front-End Development</option>
+			<option value="BDev">Back-End Development</option>
+        </select>
+        
+    </div>
+</div>
+</div><div class="col s12 m6">
+<div class="row">
+    <div class="input-field col s12 required" id="id_b_date_container">
+        <input data-date-format="Y-m-d" data-form-control="date" id="id_b_date" name="b_date" type="text">
+        <label for="id_b_date">Date Of Birth</label>
+        
+    </div>
+</div>
+</div></div>
+
+
+
+<div class="row">
+    <div class="input-field col s12 required" id="id_song_container">
+        <i class="mdi-image-audiotrack prefix"></i><input id="id_song" name="song" type="text">
+        <label for="id_song">Put Your Song's Url Here</label>
+        
+    </div>
+</div>
+
+<div class="row radio-field">
+<div class="col s12 required" id="id_work_type_container">
+        <div class="radio" id="id_card_type">
+            <input class="with-gap" id="id_card_type_0" name="work_type" type="radio" value="C"/>
+            <label class="item-label" for="id_card_type_0">Company</label>
+        </div>
+        <div class="radio" id="id_card_type">
+            <input class="with-gap" id="id_card_type_1" name="work_type" type="radio" value="I"/>
+            <label class="item-label" for="id_card_type_1">Individual</label>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="input-field col s12 required" id="id_company_container">
+        <i class="mdi-communication-business prefix"></i><input id="id_company" name="company" type="text">
+        <label for="id_company">Company(optional)</label>
+        
+    </div>
+</div>
+    
+<div class="row">
+    <div class="input-field col s12 required" id="id_message_container">
+        <textarea class="materialize-textarea" cols="40" id="id_message" name="message" rows="10"></textarea>
+        <label for="id_message">A Message From You(optional)</label>
+        
+    </div>
+</div>
+
+    
+
+                </div>
+                <div class="card-action">
+                    
+                    <div class="right-align">
+                        
+        <input type="hidden" name="_next" value="http://edmbeats.tk/userthankbot/" />
+        <button class="btn btn-primary pull-right" type="submit">Submit request</button>
+    
+
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      
+
+
+<script src="./static/material/js/jquery.datetimepicker.js"></script>
+<script src="./static/material/js/jquery.formset.js"></script>
+<script src="./static/material/js/materialize.js"></script>
+<script src="./static/material/js/material_init.js"></script>
+
+      
+  </body>
+</html>
+
