@@ -1,4 +1,12 @@
-<!doctype html>
+
+<!--
+ * Copyright (C) 2016 Edmbeats
+ * This website can not be copied and/or distributed without the 
+ * express permission of Nikhil Nayak.
+ *
+ * mailto: nikhilnayak98@gmail.com
+-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -12,7 +20,7 @@
 
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!-- Chrome, Firefox OS and Opera -->
+        <!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#0BAFA0">
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#0BAFA0">
@@ -25,7 +33,7 @@
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- icon fonts font Awesome -->
-	<link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 		
 	<!-- Custom Styles -->
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -51,6 +59,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
 	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
+
 	
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -60,6 +69,17 @@
 
 </head>
 	<body>
+            <!-- Load Facebook SDK -->
+                div id="fb-root"></div>
+                  <script>(function(d, s, id) {
+                           var js, fjs = d.getElementsByTagName(s)[0];
+                           if (d.getElementById(id)) return;
+                           js = d.createElement(s); js.id = id;
+                           js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+                           fjs.parentNode.insertBefore(js, fjs);
+                       }(document, 'script', 'facebook-jssdk'));</script>
+             <!-- SDK Loaded-->
+
 		<!-- Start Header Section -->
 		<header id="header">
 			<nav class="main-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
@@ -110,16 +130,16 @@
 			
 		<!-- Start Portfolio Section -->
 		<section id="portfolio">
-			<div class="container">
-			<h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Latest</span> Releases</h1>
-				<div class="row">
-					<div class="controls text-center">
+		    <div class="container">
+		      <h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Latest</span> Releases</h1>
+			<div class="row">
+			<div class="controls text-center">
         		<a class="filter btn btn-border" data-filter="all">All</a>
         		<a class="filter btn btn-border" data-filter=".2016">2016</a>
         		<a class="filter btn btn-border" data-filter=".trap">Trap</a>
         		<a class="filter btn btn-border" data-filter=".house">House</a>
         		<a class="filter btn btn-border" data-filter=".electro">Electro</a>
-      		</div>
+      		        </div>
 		      <div id="portfolio-items" class="portfolio-items wow fadeInUpQuick">
 
 		        <div class="mix 2016 electro" data-myorder="1">
@@ -148,28 +168,74 @@
 									</div>
 								</div>
 								<figcaption class="item-description">
-									<h4 class="item-title">Go high</h4>
+									<h4 class="item-title">Go High</h4>
 									<p>2016</p>
 								</figcaption>
 							</figure>          
 		        </div>
 				 
+                         <div class="mix 2016 electro" data-myorder="3">
+		          <figure>
+								<div class="img">
+									<img src="assets/img/thumbs/alivator.jpg" alt="">
+									<div class="overlay">
+										<a href="https://www.youtube.com/watch?v=_X4sP-ny0B4" class="link-left"><i class="fa fa-play"></i></a>
+										<a href="http://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=_X4sP-ny0B4" class="link-right"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+								<figcaption class="item-description">
+									<h4 class="item-title">Alivator</h4>
+									<p>2016</p>
+								</figcaption>
+							</figure>          
+		        </div>
 
-      		</div>
+                        <div class="mix 2016 electro" data-myorder="4">
+		          <figure>
+								<div class="img">
+									<img src="assets/img/thumbs/mogli.jpg" alt="">
+									<div class="overlay">
+										<a href="https://www.youtube.com/watch?v=6MOC5zyoQlY" class="link-left"><i class="fa fa-play"></i></a>
+										<a href="http://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=6MOC5zyoQlY" class="link-right"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+								<figcaption class="item-description">
+									<h4 class="item-title">Mogli</h4>
+									<p>2016</p>
+								</figcaption>
+							</figure>          
+		        </div>
+
+                        <div class="mix 2016 trap" data-myorder="5">
+		          <figure>
+								<div class="img">
+									<img src="assets/img/thumbs/overthesoul.jpg" alt="">
+									<div class="overlay">
+										<a href="https://www.youtube.com/watch?v=vTnujK6A6_4" class="link-left"><i class="fa fa-play"></i></a>
+										<a href="http://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=vTnujK6A6_4" class="link-right"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+								<figcaption class="item-description">
+									<h4 class="item-title">Over The Soul</h4>
+									<p>2016</p>
+								</figcaption>
+							</figure>          
+		        </div>
+      		                    </div>
 				</div>
 			</div>
 		</section>
 		<!-- End Portfolio Section -->
 
 		<!-- Start Featured Section -->
-        <section id="why-chose">
+                 <section id="why-chose">
 			<div class="container">
 				<h1 class="section-title wow fadeIn animated" data-wow-delay=".2s" style="visibility: visible;-webkit-animation-delay: .2s; -moz-animation-delay: .2s; animation-delay: .2s;">Featured</h1>
 				<div class="row">
 					<div class="col-md-4 wow fadeInLeft animated" data-wow-offset="10" data-wow-delay="0.5s" style="visibility: visible;-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
 						<div class="content-left">
 							<div class="box-left">
-							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fedmbeats&amp;tabs=timeline&amp;width=400&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" style="border:none; overflow:visible;" height="500px" width="500px" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+							<div class="fb-page" data-href="https://www.facebook.com/edmbeats" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/edmbeats"><a href="https://www.facebook.com/edmbeats">edmbeats</a></blockquote></div></div>
 							</div>
 						</div>
 					</div>
@@ -188,20 +254,20 @@
 									<i class="fa fa-music"></i>
 								</span>
 								<div class="content">
-									<h4>Alivator</h4>
-									<p>2 Days To Go</p>
+									<h4>Over The Soul</h4>
+									<p>OUT NOW!</p>
 								</div>
 							</div>
 							<br>
-							<div class="box-right">
+							<!--div class="box-right">
 								<span class="icon">
 									<i class="fa fa-music"></i>
 								</span>
 								<div class="content">
-									<h4>Mogli</h4>
-									<p>4 Days To Go</p>
+									<h4>Martin Garrix Forbidden Voices & Edmbeats Remix</h4>
+									<p>5 Days To Go</p>
 								</div>
-							</div>
+							</div-->
 						</div>
 					</div>
 				</div>
@@ -229,7 +295,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="item wow fadeInUp">
+						<div class="item wow fadeInUp" data-wow-delay="0.4s">
 							<div class="blog-wrapper">
 								<img src="assets/img/thumbs/gohigh.jpg" alt="">
 								<div class="content">
@@ -256,7 +322,20 @@
 								</div>
 							</div>
 						</div>
-						<div class="item wow fadeInUp">
+                                                <div class="item wow fadeInUp" data-wow-delay="0.4s">
+							<div class="blog-wrapper">
+								<img src="assets/img/thumbs/alivator.jpg" alt="">
+								<div class="content">
+									<h3>ALIVATOR Published!</h3>
+									<p>OUT NOW!</p>
+									<a href="#" class="redmore">Read More +</a>
+								</div>
+								<div class="blog-footer">
+									<p>Published : Apr 17, 2016</p>
+								</div>
+							</div>
+						</div>
+                                                <div class="item wow fadeInUp">
 							<div class="blog-wrapper">
 								<img src="assets/img/thumbs/mogli.jpg" alt="">
 								<div class="content">
@@ -266,6 +345,19 @@
 								</div>
 								<div class="blog-footer">
 									<p>Published : Apr 18, 2016</p>
+								</div>
+							</div>
+						</div>
+                                                <div class="item wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="blog-wrapper">
+								<img src="assets/img/thumbs/overthesoul.jpg" alt="">
+								<div class="content">
+									<h3>Over The Soul Published!</h3>
+									<p>First trap song!!OUT NOW!</p>
+									<a href="#" class="redmore">Read More +</a>
+								</div>
+								<div class="blog-footer">
+									<p>Published : Apr 26, 2016</p>
 								</div>
 							</div>
 						</div>
@@ -310,7 +402,7 @@
   					 		 <div class="rev-box">
     				  			 <textarea class="review" col="30" name="review"></textarea>
     				  			  <label class="review" for="review">Review Us</label><p></p>
-								  <input type="hidden" name="_next" value="http://edmbeats.tk/userthankbot/" />
+                                                          <input type="hidden" name="_next" value="http://edmbeats.tk/userthankbot/" />
     				  			  <button type="submit" id="submit" class="btn btn-common">Send</button>
   					  		  </div>
 						  </form>
@@ -349,7 +441,7 @@
 										<textarea name="massage" rows="7" class="form-control" placeholder="Message"></textarea>
 								</div>
 								<div class="col-sm-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-								    <input type="hidden" name="_next" value="http://edmbeats.tk/userthankbot/" />
+                                                                        <input type="hidden" name="_next" value="http://edmbeats.tk/userthankbot/" />
 									<button type="submit" id="submit" class="btn btn-common">Send</button>
 								</div>
 							</form>
@@ -402,9 +494,9 @@
 					<div class="connected-wrapper text-center">
 						<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="contact-item">
-								<a href="mailto:edmbeats@edmbeats.tk"><i class="fa fa-envelope"></i></a>
-								<h5>Email</h5>
-								<h4>edmbeats@edmbeats.tk</h4>
+								<a href="https://plus.google.com/+edmbeatstk"><i class="fa fa-google-plus"></i></a>
+								<h5>Google+</h5>
+								<h4>edmbeats</h4>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -416,7 +508,7 @@
 						</div>
 						<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="contact-item">
-								<a href="https://www.youtube.com/channel/UC1Y5O8BbZAXN1xTzMHpfT5Q/"><i class="fa fa-youtube"></i></a>
+								<a href="https://www.youtube.com/c/EdmbeatsTk"><i class="fa fa-youtube"></i></a>
 								<h5>YouTube</h5>
 								<h4>edmbeats</h4>
 							</div>
@@ -439,7 +531,7 @@
 			<div class="container">
 					<div class="copyright text-center">
 						<p>edmbeats © 2016  |  All Rights Reserved.</p>
-						<p style="font-family: 'Product Sans';">Designed & Coded By <a href="http://gdgbbsr.com/members/nikhilnayak98"><b>Nikhil Nayak </b><i class="fa fa-code"></i></a>.</p>
+						<p style="font-family: 'Product Sans';">Designed & Coded By <a href="https://nikhilnayak98.github.io"><b>Nikhil Nayak </b><i class="fa fa-code"></i></a>.</p>
 					</div>
 			</div>
 		</footer>
@@ -450,6 +542,7 @@
 			<a href="#header"><i class="fa fa-angle-up"></i></a>
 		</div>
 		<!-- Scroll End -->
+
 
 		
 		<!-- Include jquery.min.js plugin -->
@@ -476,7 +569,9 @@
 		<script src="assets/js/modernizr-2.8.0.main.js"></script>
 		<!-- Main js -->
 		<script src="assets/js/main.js"></script>
-		<!-- Copy Right-->
-		<script>console.log('%cedmbeats © 2016  |  All Rights Reserved.\nDesigned & Coded By Nikhil Nayak.','color: red; font-size: 30px;');</script>
+                <!-- Copyright -->
+		<script>console.log('%cedmbeats 2016  |  All Rights Reserved.\nDesigned & Coded By Nikhil Nayak.','color: red; font-size: 30px;');</script>	
+			
 	</body>
 </html>
+						
